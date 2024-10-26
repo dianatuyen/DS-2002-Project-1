@@ -1,11 +1,11 @@
 #Uploading data
 USE sakila;
-SELECT * FROM rental;
 SELECT * FROM customer;
+SELECT * FROM rental;
 SELECT * FROM inventory;
+SELECT * FROM payment;
 SELECT * FROM film;
 SELECT * FROM store;
-SELECT * FROM payment;
 
 # query 1: joining customers & payment with customer id
 SELECT * FROM customer
