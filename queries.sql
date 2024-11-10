@@ -25,10 +25,3 @@ SELECT * FROM store
 INNER JOIN address
 ON store.address_id = address.address_id;
 
-# query 4: connecting inventory & customer in rentals
-SELECT * FROM rental
-INNER JOIN inventory
-ON inventory.inventory_id = rental.inventory_id;
-SELECT * FROM rental
-INNER JOIN customer
-ON customer.customer_id = rental.customer_id;
