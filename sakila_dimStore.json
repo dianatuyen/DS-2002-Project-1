@@ -1,0 +1,10 @@
+[
+	{
+		"store_id" : 1,
+		"address_id" : 1
+	},
+	{
+		"store_id" : 2,
+		"address_id" : 2
+	}
+]
